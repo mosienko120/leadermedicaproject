@@ -15,11 +15,7 @@ body{
 
 .header{
     height: 70px;
-    border-bottom: 1px solid black;
-}
-
-.header__logo-img{
-    width: 115%;
+    border-bottom: 1px solid rgb(214, 214, 214);
 }
 
 .header__inner{
@@ -28,7 +24,11 @@ body{
 }
 
 .header__logo{
-    margin-top: 11px;
+    margin-top: 13px;
+}
+
+.header__logo-img{
+    width: 105%;
 }
 
 .header__nav{
@@ -62,8 +62,8 @@ body{
     position: absolute;
     margin-left: -10px;
     width: 170px;
-    border-bottom: 5px solid #f15923;
     padding-top: 26px;
+    border-bottom: 5px solid #f15923;
 }
 
 .header__nav-drop2{
@@ -117,6 +117,14 @@ body{
 
 .header__nav-drop li:hover{
     background-color: #f15923;
+}
+
+.header__nav-icons{
+    transition: all .2s ease;
+}
+
+.header__nav-drop li:hover .header__nav-icons{
+    color: #fff;
 }
 
 .header__nav-drop{
@@ -207,7 +215,6 @@ body{
 
 .header__info{
     margin-top: 15px;
-    margin-left: 50px;
 }
 
 .header__info i{
@@ -281,6 +288,6 @@ body{
 }
 
 .header__info-img{
-    width: 15px;
+    width: 16px;
     margin-right: 8px;
 }
